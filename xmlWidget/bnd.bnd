@@ -1,0 +1,11 @@
+Bundle-Name: xmlWidget
+Bundle-SymbolicName: com.liferay.demo.xml
+Bundle-Version: 1.0.0
+
+-metatype: *
+
+Import-Package: \
+	!org.apache.xml.resolver*,\
+	!org.apache.avalon*,\
+    !org.apache.log*,\
+	*
