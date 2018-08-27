@@ -29,6 +29,7 @@
         </div>
     </xsl:template>
 
+    <!-- override default template todo nothing -->
     <xsl:template match="text()"/>
 
 </xsl:stylesheet>
