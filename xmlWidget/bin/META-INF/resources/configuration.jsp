@@ -65,10 +65,6 @@
 <liferay-portlet:renderURL portletConfiguration="<%=true%>"
                            var="configurationRenderURL" />
 
-<div class="panel panel-secondary">
-<div class="panel-header">Heading</div>
-<div class="panel-body">
-
 <aui:form action="<%=configurationActionURL%>" method="post" name="fm">
     <aui:input name="<%=Constants.CMD%>" type="hidden"
                value="<%=Constants.UPDATE%>" />
@@ -87,6 +83,3 @@
         <aui:button type="submit"></aui:button>
     </aui:button-row>
 </aui:form>
-
-</div>
-</div>
